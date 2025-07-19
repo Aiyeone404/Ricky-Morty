@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+background-color: var(--cor-fundo);    
+}
+@font-face {
+    font-family: 'cosmica';
+    src: url("/img/The\ Last\ Comic\ On\ Earth.ttf") format('woff2');
+}
+:root{
+    --cor-primaria: #7ED954;
+  --cor-secundaria: #8BF7FF;
+  --cor-fundo: #4B0082;
+  --cor-texto: #333333;
+  --cor-destaque: #FFD700;
+  --cor-erro: #FF5555;
+}
+.titulo{
+    font-family: 'cosmica';
+    text-align: center;
+    color: var(--cor-fundo);
+}
+#nav{
+    background-color: var(--cor-primaria);
+    height: 100px;
+}
+#box-pesquisa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; 
+    margin-top: 80px;
+}
+
+#box-pesquisa input {
+    width: 400px;
+    height: 35px;
+    border-radius: 14px;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+}
+#box-card{
+    margin:auto;
+    background-color: var(--cor-secundaria);
+    width: 300px;
+    margin-top: 10px;
+    height: auto;
+    border-radius: 15px;
+}
+#box-card >h1{
+    font-family: 'cosmica';
+    color: var(--cor-fundo);
+    text-align: center;
+}
+#box-card>p{
+    font-size: 20px;
+    text-align: center;
+}
